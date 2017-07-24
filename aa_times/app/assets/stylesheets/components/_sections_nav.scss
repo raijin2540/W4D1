@@ -1,0 +1,21 @@
+.sections_nav {
+  display: flex;
+
+}
+.section-links {
+  display: flex;
+  margin: 0 auto;
+}
+.section-links li {
+ padding: 6px;
+ cursor: pointer;
+}
+
+.section-links li:hover {
+  background: $light-gray
+}
+
+.section-links li:nth-last-child(-n+1):hover {
+  text-decoration: underline;
+  background: none;
+}
